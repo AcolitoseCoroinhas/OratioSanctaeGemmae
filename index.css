@@ -1,0 +1,69 @@
+body {
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    background-color: rgb(213, 87, 218);
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+
+.prayer_fund_of_Saint_Gemma {
+    background-image: url("./imgs/Oratio.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 5px;
+    width: 78%;
+    max-width: 500px;
+    min-height: 600px;
+    margin: 20px auto;
+    padding: 80px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #222;
+    font-size: 18px;
+    line-height: 1.6;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+.Logo_of_Saint_Gemma {
+    border-radius: 50%;
+    height: 120px;
+    width: 120px;
+    position: relative;
+    margin: 0 auto;
+    display: block;
+    user-select: none;
+}
+
+@media (max-width: 768px) {
+    .Logo_of_Saint_Gemma {
+        height: 80px;
+        width: 80px;
+        margin-top: 10px;
+    }
+
+    .prayer_fund_of_Saint_Gemma {
+        width: 95%;
+        padding: 15px;
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 769px) {
+    .Logo_of_Saint_Gemma {
+        height: 150px;
+        width: 150px;
+        margin-top: 20px;
+    }
+
+    .prayer_fund_of_Saint_Gemma {
+        font-size: 18px;
+    }
+}
